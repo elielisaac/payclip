@@ -1,0 +1,11 @@
+CREATE DATABASE payclip
+
+CREATE TABLE pet (
+    name varchar(20),
+    owner varchar(20),
+    species varchar(20),
+    sex char(1)
+);
+
+INSERT INTO pet (name, owner, species, sex)
+VALUES ('Solovino', 'Eliel', 'species', 'M');
